@@ -1,0 +1,59 @@
+﻿  Ball.cpp
+E:\Coding\BrickBreaker\BrickBreaker\Ball.cpp(119,22): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  Brick.cpp
+  ColliderEngine.cpp
+  GameController.cpp
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(95,23): warning C4018: '<': signed/unsigned mismatch
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(133,23): warning C4018: '<': signed/unsigned mismatch
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(196,45): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(197,45): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(288,46): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(562,15): warning C4101: 'event': unreferenced local variable
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(583,15): warning C4101: 'event': unreferenced local variable
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(609,41): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(609,27): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(612,44): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(612,30): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(615,45): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(615,31): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(618,48): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(618,34): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(621,84): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(621,65): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(639,62): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  Player.cpp
+  Source.cpp
+  Generating Code...
+  BrickBreaker.vcxproj -> E:\Coding\BrickBreaker\Debug\BrickBreaker.exe

@@ -1,0 +1,30 @@
+OVERVIEW: 
+	Base class for all of our game objects. Will hold the info that all 
+	objects should have
+
+PRIVATE VARIABLES/FUNCTIONS:
+	Var - Current Position
+	Var - Current Movement Direction
+	Var - Current Speed
+
+PROTECTED VARIABLES/FUNCTIONS:
+
+	DERIVED CLASS SHOULD HAVE MOVEMENT FUNCTIONS AND SHOULD BE ONLY
+	INSTANCES NEEDING TO GET ACCESS TO THESE VARIABLES
+
+	SIMPLE GETTER FUNCTIONS
+
+	Func - Get Speed
+	Func - Get Position
+	Func - Get Direction
+	Func - Get Velocity
+	Func - ReverseDirX		Function to reverse the direction on the x axis
+	Func - ReverseDirY		Function to reverse the direction on the y axis
+	
+
+	
+
+PUBLIC VARIABLES/FUNCTIONS
+	Func - Set Direction	Function to set the current direction
+	Func - Set Speed		Function to set the speed of the game object
+	

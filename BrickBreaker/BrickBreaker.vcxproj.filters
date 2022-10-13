@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Classes">
+      <UniqueIdentifier>{84bf2885-61e0-4b92-bfa3-7897a7e10e47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{e50b9250-8e62-446d-b9e9-e9fd07bd84ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Classes">
+      <UniqueIdentifier>{5663ea4e-8290-42ab-ad97-053a84398f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Singletons">
+      <UniqueIdentifier>{65530587-9d44-4d85-b1df-eae0a8d1735f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Singletons">
+      <UniqueIdentifier>{a2cb0975-6217-4a08-9783-c029778a9cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Classes\Singletons">
+      <UniqueIdentifier>{65848e89-f03b-4fd9-acd9-55d910a94a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Game Objects">
+      <UniqueIdentifier>{39cfc1a4-abbe-4d38-a583-133f53ac3088}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes\Game Objects">
+      <UniqueIdentifier>{7f4106b1-b308-454e-afd4-71292c50e38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Classes\Game Objects">
+      <UniqueIdentifier>{bf7eaaab-13e8-4be5-978e-1b4c69da08da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameController.cpp">
+      <Filter>Source Files\Classes\Singletons</Filter>
+    </ClCompile>
+    <ClCompile Include="HelperFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Classes\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Source Files\Classes\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\Classes\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Classes\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Game Overview.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="GameControllerPseudo.txt">
+      <Filter>Resource Files\Classes\Singletons</Filter>
+    </Text>
+    <Text Include="BallPseudo.txt">
+      <Filter>Resource Files\Classes\Game Objects</Filter>
+    </Text>
+    <Text Include="BrickPseudo.txt">
+      <Filter>Resource Files\Classes\Game Objects</Filter>
+    </Text>
+    <Text Include="GameObjectPseudo.txt">
+      <Filter>Resource Files\Classes\Game Objects</Filter>
+    </Text>
+    <Text Include="PlayerPseudo.txt">
+      <Filter>Resource Files\Classes\Game Objects</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameController.h">
+      <Filter>Header Files\Classes\Singletons</Filter>
+    </ClInclude>
+    <ClInclude Include="HelperFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\Classes\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Header Files\Classes\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Classes\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Classes\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderEngine.h">
+      <Filter>Header Files\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Preferences.ini">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

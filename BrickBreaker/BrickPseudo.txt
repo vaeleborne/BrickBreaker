@@ -1,0 +1,21 @@
+OVERVIEW: 
+	Class that represents a brick, our main scoring game object
+
+
+	PARENT: GameObject
+
+
+PRIVATE VARIABLES/FUNCTIONS:
+	Var - Size (has a width and height)
+	Var - Sprite (the visual representation)
+	Var - Render (determines if should render)
+	Var - Score Value (How many points this brick is worth)
+
+
+PUBLIC VARIABLES/FUNCTIONS
+	Func - Draw (will draw the sprite to a window)
+	Func - Update(will update the object)
+	Func - Should Destroy? (checks if the object should be destroyed)
+	Func - Set To Destroy (flags the object for destruction)
+	Func - Set texture (loads a texture to the object)
+

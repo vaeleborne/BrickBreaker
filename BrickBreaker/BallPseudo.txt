@@ -1,0 +1,20 @@
+OVERVIEW: 
+	Class that represents a ball which is one of our core game objects
+	When it hits a brick it should destroy it and add points
+	When it hits a player it should bounce
+	When it goes 'out of bounds' it should either bounce(if out on
+		the left, right, or top) or go away (if on bottom), bounds
+		should be variably set for potential other game modes
+
+	PARENT: GameObject
+
+
+PRIVATE VARIABLES/FUNCTIONS:
+	Var - Radius (the size of the ball)
+	Var - Sprite (the visual representation)
+
+
+PUBLIC VARIABLES/FUNCTIONS
+	Func - Draw (will draw the sprite to a window)
+	Func - Move (Sets a velocity to move)
+	Func - Update(will update the objects position)

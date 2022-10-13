@@ -1,0 +1,16 @@
+GAME TITLE: BRICK BREAKER CLONE
+
+GOAL: To be a simple clone of Breakout / Brick Breaker. With a personal twists. Utilizing SFML for graphics and audio
+
+DESCRIPTION: 
+				Have 1(maybe a stretch goal of 2?) Players controlling a horizontal paddle on the screen
+				These paddles will bounce balls back up, when a ball hits a 'brick' it is destroyed, and the 
+				player that last hit said ball gets points. Bricks can be of varying sizes and sometimes spawn 
+				upgrades(extra balls, increased speed, etc). 
+
+				STRETCH GOALS GAME MODES: Single Player, 2 Player Co-op (both on bottom with a single ball),
+											2 Player Co-Op (One on bottom and one on top with 2 balls to start),
+											2 Player Competitive (each player has half of window and own ball, each half is 
+											isolated, first player to break all wins!)
+
+

@@ -1,0 +1,18 @@
+OVERVIEW: 
+	Class that represents the player paddle. Should move left and right only
+	And be restricted to the game window. The ball object will handle collision
+	PARENT: GameObject
+
+	PARENT: GameObject
+
+
+PRIVATE VARIABLES/FUNCTIONS:
+	Var - Size (has the width and height)
+	Var - Sprite (the visual representation)
+	
+
+
+PUBLIC VARIABLES/FUNCTIONS
+	Func - Draw (will draw the sprite to a window)
+	Func - Move (Sets a velocity to move)
+	Func - Update(will update the objects position)

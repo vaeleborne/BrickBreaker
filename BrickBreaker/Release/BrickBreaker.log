@@ -1,0 +1,61 @@
+﻿  GameController.cpp
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(73,23): warning C4018: '<': signed/unsigned mismatch
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(81,23): warning C4018: '<': signed/unsigned mismatch
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(173,45): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(174,45): warning C4244: '=': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+          and
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(253,46): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(318,64): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(318,45): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(323,48): warning C4244: 'argument': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+E:\Coding\BrickBreaker\BrickBreaker\GameController.cpp(324,32): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  Ball.cpp
+  Brick.cpp
+  ColliderEngine.cpp
+  GameObject.cpp
+  HelperFunctions.cpp
+E:\Coding\BrickBreaker\BrickBreaker\HelperFunctions.cpp(9,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Coding\BrickBreaker\BrickBreaker\HelperFunctions.cpp(31,15): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Player.cpp
+  Source.cpp
+  Generating code
+  489 of 492 functions (99.4%) were compiled, the rest were copied from previous compilation.
+    323 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  BrickBreaker.vcxproj -> E:\Coding\BrickBreaker\Release\BrickBreaker.exe

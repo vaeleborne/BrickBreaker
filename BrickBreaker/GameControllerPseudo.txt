@@ -1,0 +1,21 @@
+OVERVIEW: 
+	Will have a single instance, used to contain all
+	other gameobjects to have a singular call to draw and update
+	them in game
+
+SETUP AS A SINGLETON THEN:
+
+PRIVATE VARIABLES/FUNCTIONS:
+	Var - Balls - Will have all ball objects
+	Var - Bricks - Will have all brick objects
+	Var - Players - Will have all player objects
+
+
+
+PUBLIC VARIABLES/FUNCTIONS
+	Func - Draw Objects - Will Draw all objects
+	Func - Update Objects - Will Update all objects
+	
+	Func - CreateBall - Will add a ball object
+	Func - AddBrick - Will add a brick object
+	Func - AddPlayer - Will add a player object
